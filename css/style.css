@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+/*-------------------------------------------
+共通
+-------------------------------------------*/
+html {
+  font-size: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #432;
+  font-size: 0.85rem;
+}
+
+a {
+  color: #432;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+/*-------------------------------------------
+header
+-------------------------------------------*/
+.site-logo {
+  width: 180px;
+  margin: 40px 0 10px 0;
+}
+
+/*-------------------------------------------
+main
+-------------------------------------------*/
+.main-visu {
+  margin-bottom: 60px;
+}
+
+/* index */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+#index {
+  background-color: #f5f5f5;
+  margin-bottom: 60px;
+  padding: 60px;
+}
+
+.sub-title {
+  font-size: 1.125rem;
+  padding: 0 0 30px 0;
+  text-align: center;
+}
+
+.index-box {
+  border: 1px solid;
+  padding: 30px;
+}
+.content-list {
+  display: table;  
+  margin: 0 auto;
+  font-size: 0.875rem;
+}
+
+.content-list li {
+  margin-bottom:  20px;
+}
+
+.content-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* pic */
+#pic {
+  margin-bottom: 60px;
+}
+
+.content-img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content-img li {
+  width: 49%;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+/* detail */
+#detail {
+  background-color: #f5f5f5;
+  padding: 60px;
+}
+
+.detail-box {
+  display: flex;
+}
+
+.detail-info {
+  width: 35%;
+  text-align: left;
+}
+
+.detail-info dt {
+  font-weight: bold;
+}
+
+.detail-info dd {
+  padding-bottom: 10px;
+}
+
+.content3 {
+  width: 65%;
+  text-align: left;
+  padding-left: 40px;
+  border-left: 1px solid;
+}
+
+.content3 p {
+  padding-bottom: 20px;
+}
+
+.content3 a {
+  display: block;
+  width: 150px;
+  border-bottom: 1px solid;
+}
+
+.content3 a:hover {
+  opacity: .5;
+}
+
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+#footer {
+  text-align: center;
+  font-size: 0.65rem;
+  padding-bottom: 10px;
+}
+
+/*-------------------------------------------
+sp
+-------------------------------------------*/
+@media screen and (max-width: 1024px) {
+ 
+.main-visu {
+  width: 100%;
+}
+
+#index {
+  padding: 40px 20px;
+}
+
+.content-img {
+  flex-direction: column;
+}
+
+.content-img li {
+  width: 100%;
+}
+
+.detail-box {
+  flex-direction: column;
+  width: 100%;
+}
+
+.detail-info {
+  width: 80%;
+}
+
+.detail-info dd:last-child {  
+  padding-bottom: 40px;
+}
+
+.content3 {
+  width: 100%;
+  border-top: 1px solid;
+  border-left: none;
+  padding-top: 40px;
+  padding-left: 0;
+}
+
+
+  
+}
